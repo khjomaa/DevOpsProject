@@ -1,0 +1,7 @@
+rabbitmq:
+  metrics:
+    enabled: true
+
+  rabbitmq:
+    username: guest
+    password: guest

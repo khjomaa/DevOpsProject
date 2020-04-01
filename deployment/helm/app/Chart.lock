@@ -1,0 +1,12 @@
+dependencies:
+- name: consumer
+  repository: http://192.168.99.149:32688
+  version: 0.1.0
+- name: producer
+  repository: http://192.168.99.149:32688
+  version: 0.1.0
+- name: rabbitmq
+  repository: https://charts.bitnami.com/bitnami
+  version: 6.20.1
+digest: sha256:6b63446eb9dd950ce94548671dfd16dcc8c9d0200fa8e8a0de3ddb68ddf77b65
+generated: "2020-03-28T17:53:45.764162+03:00"

@@ -1,0 +1,11 @@
+service:
+  type: NodePort
+  nodePort: 32688
+
+persistence:
+  enabled: true
+  accessMode: ReadWriteOnce
+
+env:
+  open:
+    DISABLE_API: false
