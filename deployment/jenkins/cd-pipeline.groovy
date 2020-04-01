@@ -13,7 +13,7 @@ podTemplate(label: label,
 ) {
     node(label) {
         stage('Checkout Repo') {
-            git credentialsId: gitHubCredentials, url: gitRepoUrl
+//            git credentialsId: gitHubCredentials, url: gitRepoUrl
             git gitRepoUrl
         }
 
