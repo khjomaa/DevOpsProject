@@ -1,6 +1,6 @@
 def label = "helm-jenkins-${UUID.randomUUID().toString()}"
 def gitRepoUrl = "https://github.com/khjomaa/DevOpsProject.git"
-def gitHubCredentials = "GitHubCreds"
+//def gitHubCredentials = "GitHubCreds"
 
 podTemplate(label: label,
         containers: [
@@ -14,6 +14,7 @@ podTemplate(label: label,
     node(label) {
         stage('Checkout Repo') {
             git credentialsId: gitHubCredentials, url: gitRepoUrl
+            git gitRepoUrl
         }
 
         def props = readProperties file:'./deployment/jenkins/pipelines.properties'
