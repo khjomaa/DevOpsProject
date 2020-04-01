@@ -77,6 +77,8 @@ Develop a jenkins pipeline that upon an execution the following steps will occur
 ---
 # Project Solution
 
+**IMPORTANT: SOLUTION NOT INCLUDING PROJECT'S BONUSES**
+ 
 ### Pre-reqs
 1. Minikube
 2. kubectl
