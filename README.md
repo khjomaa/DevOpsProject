@@ -1,7 +1,9 @@
+# Advanced DevOps Course Kubernetes Project
+
+- [Project Details](#kubernetes-project)
+- [Go To Solution](#project-solution)
+
 # Kubernetes Project
-
-[Go To Solution](#project-solution)
-
 In this paper we will describe the contents of the advanced DevOps course project.
 The purpose is this project is to cover the following topics into one orchestrated pipeline of DevOps process.
 
@@ -72,6 +74,7 @@ Develop a jenkins pipeline that upon an execution the following steps will occur
 
 ● Upon receiving this project, you will have 3 weeks in total to complete it and send me a link to your git repository.
 
+---
 # Project Solution
 
 ### Pre-reqs
